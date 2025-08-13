@@ -1,17 +1,19 @@
 def solution(citations):
-    h = 0
-    ans = []
-    n = 1
-    citations.sort(reverse=True)
+    answer = 0
+    ans_list = []
     
-    for num in citations:
-        if num >= n:
-            h = n
-            n += 1
-            ans.append(h)
-            
-    if len(ans) == 0:
-        return 0
-     
-    return ans[-1]
+    for c in citations:
+        num = c
+        count = 0
+
+        for n in citations:
+            if n >= c:
+                count += 1
+                
+        if count >= num:
+            ans_list.append(num)
+        else:
+            ans_list.append(count)
+    answer = max(ans_list)
+    return answer
 
