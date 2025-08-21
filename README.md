@@ -7,4 +7,5 @@ This is an auto push repository for Baekjoon Online Judge created with [Baekjoon
 |  |
 | ------- |
 | [0175-combine-two-tables](https://github.com/yunhwaa/Baekjoon/tree/master/0175-combine-two-tables) |
+| [1179-game-play-analysis-i](https://github.com/yunhwaa/Baekjoon/tree/master/1179-game-play-analysis-i) |
 <!---LeetCode Topics End-->
